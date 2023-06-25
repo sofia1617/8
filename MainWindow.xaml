@@ -1,0 +1,16 @@
+﻿<Window x:Class="Biblioteki.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Biblioteki"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="Textbl" Margin="194,83,194,217"/>
+        <Button Margin="194,311,438,65" Content="Тык чтобы в файл" Click="Ser"/>
+        <Button Margin="435,311,194,65" Content="Тык чтобы из файла" Click="Deser"/>
+        <Button Margin="622,86,10,289" Content="Светлая тема" Click="Button_Click"/>
+        <Button Margin="622,150,10,226" Content="Темная тема" Click="Button_Click_1"/>
+    </Grid>
+</Window>
